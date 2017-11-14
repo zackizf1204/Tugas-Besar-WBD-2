@@ -1,0 +1,25 @@
+#header_container {
+    font-family: sans-serif;
+    display: table;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+#logo {
+    display: table-cell;
+}
+
+#header-profile {
+    width: 100%;
+}
+
+#logo > img {
+    height: 37px;
+}
+
+#header-right-side {
+    width: 100%;
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+}

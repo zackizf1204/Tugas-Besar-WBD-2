@@ -1,0 +1,35 @@
+#header_tab_container {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.tab {
+    display: table-cell;
+    text-align: center;
+    border: 1px solid black;
+    cursor: pointer;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-family:sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.tab:hover {
+    background-color: #ddeadd;
+}
+
+.tab.selected {
+    background-color: #465d43;
+    color: white;
+}
+
+.tab.selected:hover {
+    background-color: #263d23;
+}
+
+#center.tab {
+    border-left-width: 0;
+    border-right-width: 0;
+}

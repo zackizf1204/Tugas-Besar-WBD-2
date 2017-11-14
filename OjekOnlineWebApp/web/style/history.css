@@ -1,0 +1,91 @@
+body {
+    margin-left: 30%;
+    margin-right: 30%;
+    position: relative;
+    min-width: 515px;
+}
+
+h1 {
+    font-family: fantasy;
+    color: #353C3F;
+}
+
+.header-row {
+    display: table;
+    width: 100%;
+}
+
+.header-row-text {
+    display: table-cell;
+}
+
+.header-row-button {
+    display: table-cell;    
+    position: relative;
+}
+
+.hide-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.text-date {
+    color: darkgray;
+}
+
+.text-display-name {
+    font-weight: bold;
+    font-size: 20px;
+    color: #333333;
+    font-family: 'Bree Serif', serif;
+}
+
+.trip {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.rating {
+    color: orange;
+}
+
+.comment {
+    margin-left: 23px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #d50027;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+}
+
+table {
+    margin-top: 30px;
+}
+
+th {
+    position: relative;
+    padding-left: 10px;
+}
+
+th > img {
+    border: 1px solid black;
+    width: 110px;
+    height: 120px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 10px;
+}

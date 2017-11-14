@@ -1,0 +1,103 @@
+h1 {
+    font-family: fantasy;
+    color: #353C3F;
+}
+
+.ulnavbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.float_center {
+    float: right;
+    position: relative;
+    left: -50%; /* or right 50% */
+    text-align: center;
+}
+
+.linavbar{
+    display: inline;
+}
+.profile{
+    text-align: center;
+    /*        font-family : "Lucida Sans Unicode", "Lucida Grande", sans-serif;*/
+}
+
+.profilelagi{
+    text-align : left;
+    font-family : "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.input-title {
+    width: 100%;
+}
+
+h3  {
+    font-family: fantasy;
+    color: #353C3F;
+    font-size: 15px;
+    font-size: 25px;
+}
+
+body {
+    margin-left: 30%;
+    margin-right: 30%;
+    min-width: 515px;
+}
+
+.profile-picture {
+    border: 8px solid black;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.user-name-container > p {
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.display-name-container {
+    padding-top: 10px;
+}
+
+.text-align-center {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Bree Serif', serif;
+}
+
+.pencil {
+    display: table-cell;
+    width: 28px;
+    float: right;
+    cursor: pointer;
+}
+
+h1 {
+    display: table-cell;
+    font-stretch: extra-condensed;
+}
+
+.title-container {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: table;
+    width: 100%;
+}
+
+.little-heading {
+    font-size: 28px;
+    font-stretch: condensed;
+}
+
+.preferred-locations-list {
+    font-family: 'Bree Serif', serif;
+}
+
+ul {
+    list-style-type: none;
+}

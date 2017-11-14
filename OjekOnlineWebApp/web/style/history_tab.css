@@ -1,0 +1,39 @@
+#header_tab_history_container {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.tab_history {
+    display: table-cell;
+    text-align: center;
+    border: 1px solid black;
+    cursor: pointer;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-family:sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.tab_history:hover {
+  background-color: #ddeadd;
+}
+
+.tab_history.history_selected {
+    background-color: #6aca6b;
+    color: black;
+}
+
+.tab_history.history_selected:hover {
+  background-color: #60c060;
+}
+
+#center.tab_history {
+    border-left-width: 0;
+    border-right-width: 0;
+}
+
+.right_tab {
+    border-left-width: 0;
+}

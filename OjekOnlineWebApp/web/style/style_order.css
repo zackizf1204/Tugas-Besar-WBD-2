@@ -1,0 +1,216 @@
+body {
+    margin-left: 30%;
+    margin-right: 30%;
+    position: relative;
+    min-width: 515px;
+}
+h1, .label {
+    font-family: fantasy;
+    color: #353C3F;
+}
+textarea {
+    resize: none;
+}
+#step-holder {
+    min-width: 515px;
+    margin-bottom: 17px;
+    display: table;
+    table-layout: fixed;
+}
+.step-container {
+    width: 130px;
+    padding-right: 30px;
+    display: table-cell;
+}
+.step-container.center {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.step-container.last {
+    padding-right: 0;
+    padding-left: 30px;
+}
+#step-current.step {
+    background: #FEFD9F;
+}
+.step {
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid black;
+}
+.step-number {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    margin: 2px;
+    background-color: #D5D5D5;
+    border-radius: 50%;
+    padding: 5px;
+}
+.step-text {
+    display: inline-block;
+    margin-left: 5px;
+    font-family: 'Slabo 27px', serif;
+}
+#form-holder {
+    padding: 15px;
+    margin-bottom: 30px;
+}
+.data {
+    margin-bottom: 5px;
+}
+.data-label {
+    display: table-cell;
+    min-width: 180px;
+    padding: 5px;
+    font-size: 18px;
+    font-family: 'Verdana';
+}
+.data-field {
+    display: table-cell;
+    width: 100%;
+}
+.data-field input {
+    width: 97%;
+    border: 1px solid gainsboro;
+    font-size: 20px;
+}
+#button-holder {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+button {
+    background-color: #83D900;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    min-width: 100px;
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+}
+button:hover {
+    background-color: #63B800;
+}
+button .choose-driver {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 8px;
+    margin: 0;
+    font-size: 15px;
+}
+.drivers-box {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    margin-top: 7px;
+    min-width: 490px;
+}
+.drivers-box > .content {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 10px;
+    margin: 5px;
+}
+.drivers-box > .content > .nothing-to-display {
+    text-align: center;
+    font-size: 21px;
+    color: #999999;
+    margin-top: 15px;
+}
+.label {
+    font-size: 25px;
+    font-family: fantasy;
+    font-stretch: condensed;
+    font-weight: bold;
+    margin-bottom: -15px;
+}
+#profile-holder {
+    font-family: 'PT Sans', sans-serif;
+    color: #353C3F;
+    margin-top: 28px;
+}
+#profile-holder > div {
+    display: flex;
+    justify-content: center;
+}
+#profile-holder > #complete-profile-picture > img {
+    border-color: #333333;
+    border-style: solid;
+    border-radius: 50%;
+    border-width: thick;
+    margin-bottom: 12px;
+}
+#profile-holder > #complete-username {
+    font-size: 22px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+#profile-holder > #complete-name {
+    font-size: 19px;
+    font-weight: bold;
+}
+#rating-holder {
+    display: flex;
+    justify-content: center;
+}
+#rating-holder > * > img {
+    width: 40px;
+    height: 40px;
+}
+#comment-field {
+    width: 100%;
+    height: 35px;
+    margin-bottom: 10px;
+}
+.other-driver {
+    display: table;
+    margin-top: 20px;
+}
+.profile-picture, .profile-content {
+    display: table-cell;
+}
+.profile-picture > img {
+    width: 100px;
+    height: 100px;
+    margin-right: 15px;
+    border: 1px solid black;
+}
+.profile-content {
+    margin: 10px;
+    width: 100%;
+    vertical-align: top;
+    position: relative;
+}
+#other-driver-container {
+    margin-left: 20px;
+}
+.name-rating-driver > .name {
+    font-size: 25px;
+    margin-top: 5px;
+    font-family: 'Bree Serif', serif;
+}
+.button-holder-align-right-bottom {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+#button-holder-align-right {
+    position: absolute;
+    right: 0;
+}
+#button-holder-align-right > button {
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
